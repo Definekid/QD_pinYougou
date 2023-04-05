@@ -1,0 +1,120 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  height: 84px;
+  border-bottom: 2px solid #c81523;
+}
+header .logo {
+  padding-top: 18px;
+}
+.registerarea {
+  height: 522px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+.registerarea h3 {
+  height: 42px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ececec;
+  line-height: 42px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.registerarea h3 .login {
+  float: right;
+  font-size: 14px;
+}
+.registerarea .reg_form {
+  width: 600px;
+  margin: 50px auto 0;
+}
+.registerarea .reg_form ul li:nth-child(-n+5) {
+  margin-bottom: 20px;
+}
+.registerarea .reg_form ul li:nth-child(-n+5) label {
+  display: inline-block;
+  width: 88px;
+  text-align: right;
+}
+.registerarea .reg_form ul li:nth-child(-n+5) input {
+  width: 242px;
+  height: 37px;
+  border: 1px solid #ccc;
+}
+.registerarea .reg_form ul li:nth-child(-n+5) span .error_icon,
+.registerarea .reg_form ul li:nth-child(-n+5) span .success_icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  background: url(../images/checked.png) no-repeat;
+  margin-top: 2px;
+}
+.registerarea .reg_form ul li:nth-child(-n+5) span .success_icon {
+  background: url(../images/checked.png) no-repeat;
+}
+.registerarea .reg_form ul li:nth-child(-n+5) .error {
+  color: #c81523;
+}
+.registerarea .reg_form ul li:nth-child(-n+5) .success {
+  color: green;
+}
+.registerarea .reg_form ul .safe {
+  padding-left: 170px;
+}
+.registerarea .reg_form ul .safe em {
+  padding: 0 12px;
+  color: #fff;
+}
+.registerarea .reg_form ul .safe .ruo {
+  background-color: #de1111;
+}
+.registerarea .reg_form ul .safe .zhong {
+  background-color: #40b83f;
+}
+.registerarea .reg_form ul .safe .qiang {
+  background-color: #f79100;
+}
+.registerarea .reg_form ul .agree {
+  padding-left: 95px;
+}
+.registerarea .reg_form ul .agree input {
+  vertical-align: middle;
+}
+.registerarea .reg_form ul .agree a {
+  color: #1ba1e6;
+}
+.registerarea .reg_form ul .btn input {
+  width: 200px;
+  height: 34px;
+  background-color: #c81523;
+  font-size: 14px;
+  color: #fff;
+  margin: 30px 140px;
+}
+.mod_copyright {
+  padding-top: 20px;
+}
+.mod_copyright .links {
+  margin-bottom: 15px;
+}
+.mod_copyright .links ul {
+  display: flex;
+  text-align: center;
+}
+.mod_copyright .links ul li {
+  flex: 1;
+  border-right: 1px solid #e4e4e4;
+}
+.mod_copyright .links ul li:last-child {
+  border-right: 0;
+}
+.mod_copyright .copyright {
+  clear: both;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 20px;
+}

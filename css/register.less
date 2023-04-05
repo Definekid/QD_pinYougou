@@ -1,0 +1,161 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+
+    .logo {
+        padding-top: 18px;
+    }
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+
+    h3 {
+        height: 42px;
+        border-bottom: 1px solid #ccc;
+        background-color: #ececec;
+        line-height: 42px;
+        padding: 0 10px;
+        font-size: 16px;
+        font-weight: 400;
+
+        .login {
+            float: right;
+            font-size: 14px;
+        }
+    }
+
+    .reg_form {
+        width: 600px;
+
+        margin: 50px auto 0;
+
+        ul {
+            li:nth-child(-n+5) {
+                margin-bottom: 20px;
+
+                label {
+                    display: inline-block;
+                    width: 88px;
+                    text-align: right;
+                }
+
+                input {
+                    width: 242px;
+                    height: 37px;
+                    border: 1px solid #ccc;
+                }
+
+                span {
+
+                    .error_icon,
+                    .success_icon {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 22px;
+                        height: 22px;
+                        background: url(../images/checked.png) no-repeat;
+                        margin-top: 2px;
+                    }
+
+                    .success_icon {
+
+                        background: url(../images/checked.png) no-repeat;
+
+                    }
+                }
+
+                .error {
+                    color: #c81523;
+                }
+
+                .success {
+                    color: green;
+                }
+
+            }
+
+            .safe {
+                padding-left: 170px;
+
+                em {
+                    padding: 0 12px;
+                    color: #fff;
+                    // background-color: pink;
+                }
+
+                .ruo {
+                    background-color: #de1111;
+                }
+
+                .zhong {
+                    background-color: #40b83f;
+                }
+
+                .qiang {
+                    background-color: #f79100;
+                }
+            }
+
+            .agree {
+                padding-left: 95px;
+
+                input {
+                    vertical-align: middle;
+                }
+
+                a {
+                    color: #1ba1e6;
+                }
+            }
+
+            .btn {
+                input {
+                    width: 200px;
+                    height: 34px;
+                    background-color: #c81523;
+                    font-size: 14px;
+                    color: #fff;
+                    margin: 30px 140px;
+                }
+            }
+
+        }
+    }
+}
+
+.mod_copyright {
+    padding-top: 20px;
+
+    .links {
+        margin-bottom: 15px;
+
+        ul {
+            display: flex;
+            text-align: center;
+
+            li {
+                flex: 1;
+                border-right: 1px solid #e4e4e4;
+
+                &:last-child {
+                    border-right: 0;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        clear: both;
+        margin-top: 10px;
+        text-align: center;
+        line-height: 20px;
+    }
+}
